@@ -1,0 +1,20 @@
+POST http://localhost:8080/category HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+    "name": "Category 3",
+    "description": "Category 3 description"
+}
+
+###
+
+GET http://localhost:8080/category/11849417-36d8-48ea-9965-32d1bce4dc33 HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/category HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
